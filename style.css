@@ -147,7 +147,7 @@ button i.fa-solid.fa-arrow-right{
 }
 .note-card h3{
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
     color: #001931;
     margin-bottom: 16px;
 }
@@ -157,7 +157,7 @@ button i.fa-solid.fa-arrow-right{
     color: #627382;
 }
 .note-card{
-    box-shadow: 0 0 8px 0 #0000001d;
+    box-shadow: 0 0 30px 0 #0000001d;
 }
 #solution{
     margin: 120px auto;
@@ -219,5 +219,38 @@ i.fa-solid.fa-circle-check {
 .access-container{
     padding: 0 0 80px;
     border-radius: 10px;
+    margin-bottom: 120px;
+}
+#footer{
+    background-color: #001931;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0 80px;
+}
+.social-icon{
+    display: flex;
+    gap: 16px;
+}
+.social-icon li{
+    list-style: none;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.footer-bottom{
+    padding: 32px 0 32px 0;
+    color: #ffffff  ;
+}
+.footer-bottom p{
+    font-size: 16px;
+}
+#footer h3{
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 16px;
 }
 /* main style end */    
