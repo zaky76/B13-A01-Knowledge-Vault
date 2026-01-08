@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body{
-    background-color: red;
     font-family: "Inter", sans-serif;
     font-style: normal;
 }
@@ -21,8 +20,23 @@ body{
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
-    padding: 10px 7px;
+    padding: 10px 10px;
     border: none; 
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #469165;
+    border: 1px solid #469165;
+    cursor: pointer;
+}
+.text-center{
+    text-align: center;
+}
+.secton-heading{
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
 }
 /* shared style end*/
 
@@ -49,5 +63,100 @@ body{
     text-decoration: none;
     font-size: 16px;
     color: #000000;
+}
+.header-container .menu a:hover{
+    color: #469165;
+}
+#hero{
+    background: url(./assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#hero .banner-container{
+    padding: 115px 120px 172px ;
+    margin: 0 auto;
+}
+.hero-top-btn{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #469165;
+    padding: 12px 8px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 16px;
+}
+.hero-top-btn:hover{
+    background-color: #469165;
+    color: #ffffff;
+    cursor: pointer;
+}
+#hero h1{
+    font-size: 72px;
+    color: #ffffff;
+    line-height: 82px;
+    margin-bottom: 16px;
+}
+#hero p{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;    
+    margin-bottom: 32px;
+}
+button i.fa-solid.fa-arrow-right{
+    padding: 9px;
+}
+.see-how-btn{
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 10px;
+    border: 1px solid #ffffff;
+}
+.hero-two-button{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+#notes .note-container{
+    align-items: center;
+}
+#notes .note-top h2{
+    font-size: 48px;
+    margin: 60px auto 20px;
+}
+#notes .note-top p{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+#notes .note-info{
+    display: flex;
+    gap: 24px;
+}
+.note-info .note-card{
+    padding:69px 24px 21px 24px ;
+}
+.note-card img {
+    background-color: #F95555;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 16px;
+}
+.note-card h3{
+    font-size: 24px;
+    font-weight: 400;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note-card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+.note-card{
+    box-shadow: 0 0 8px 0 #0000001d;
 }
 /* main style end */
