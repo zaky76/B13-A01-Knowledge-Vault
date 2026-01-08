@@ -241,6 +241,11 @@ i.fa-solid.fa-circle-check {
     border-radius: 50%;
     font-size: 20px;
 }
+.social-icon li:hover{
+    color: #ffffff;
+    background-color: #469165;
+    cursor: pointer;
+}
 .footer-bottom{
     padding: 32px 0 32px 0;
     color: #ffffff  ;
