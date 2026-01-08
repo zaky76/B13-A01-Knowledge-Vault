@@ -159,4 +159,41 @@ button i.fa-solid.fa-arrow-right{
 .note-card{
     box-shadow: 0 0 8px 0 #0000001d;
 }
+#solution{
+    margin: 120px auto;
+}
+.solution-container{
+    display: flex;
+    gap: 60px;
+}
+.solution-container{
+    align-items: center;
+}
+.title-solution{
+    margin-bottom: 20px;
+}
+.solution-info h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+.solution-info p{
+    color: #627382;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.solution-list li{
+    color: #001931;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+}
+i.fa-solid.fa-circle-check {
+    color: #30B868;
+    padding: 0px 6px 0px 0px;
+}
 /* main style end */
