@@ -15,28 +15,29 @@ body{
     margin: 0 auto;
 }
 .btn{
+    align-items: center;
+    display: inline-flex;
+    gap: 12px;
     background-color: #469165;
+    font-family: 'Inter', sans-serif; 
     border-radius: 5px;
     color: #ffffff;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 10px 15px;
     border: none; 
+    transition: all 0.3s ease;
 }
 .btn:hover{
     background-color: #ffffff;
     color: #469165;
     border: 1px solid #469165;
     cursor: pointer;
+    transition: all 0.3s ease;
+    transform: translateY(-2px);
 }
 .text-center{
     text-align: center;
-}
-.secton-heading{
-    font-size: 48px;
-    font-weight: 700;
-    text-align: center;
-    margin-bottom: 16px;
 }
 /* shared style end*/
 
@@ -68,29 +69,36 @@ body{
     color: #469165;
 }
 #hero{
-    background: url(./assets/hero-bg.png);
+   background-image: url('./assets/hero-bg.png');
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
 }
 #hero .banner-container{
     padding: 115px 120px 172px ;
     margin: 0 auto;
 }
 .hero-top-btn{
+    display: inline-flex;
+    gap: 7px;
     font-size: 16px;
     font-weight: 600;
     background-color: #ffffff;
     color: #469165;
-    padding: 12px 8px;
+    padding: 10px 15px;
     border-radius: 20px;
     border: none;
     margin-bottom: 16px;
+    transition: all 0.3s ease;
+    align-items: center;
 }
 .hero-top-btn:hover{
     background-color: #469165;
     color: #ffffff;
     cursor: pointer;
+    transform: translateY(-2px);
 }
 #hero h1{
     font-size: 72px;
@@ -104,16 +112,27 @@ body{
     color: #FFFFFF;    
     margin-bottom: 32px;
 }
-button i.fa-solid.fa-arrow-right{
-    padding: 9px;
+.btn-btn {
+  align-items: center;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 12px;
+  background: transparent;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif; 
+  font-size: 16px;
+  font-weight: 500;
+  border: 1.5px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
-.see-how-btn{
-    border-radius: 5px;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px 10px;
-    border: 1px solid #ffffff;
+
+.btn-btn:hover {
+  border-color: #469165;
+  transform: translateY(-2px);
+  color: #469165;
 }
 .hero-two-button{
     display: flex;
@@ -259,3 +278,4 @@ i.fa-solid.fa-circle-check {
     margin-bottom: 16px;
 }
 /* main style end */    
+
