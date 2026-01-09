@@ -176,7 +176,7 @@ body{
     color: #627382;
 }
 .note-card{
-    box-shadow: 0 0 30px 0 #0000001d;
+    box-shadow: 0 -15px 30px -10px #0000001d;
 }
 #solution{
     margin: 120px auto;
